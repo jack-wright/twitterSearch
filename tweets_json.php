@@ -1,10 +1,10 @@
 <?php
 require 'tmhOAuth.php'; 
 $connection = new tmhOAuth(array(
- 	 'consumer_key' => 'bUeYH4U3f0krUH6nGO4n8zZXs',
-	'consumer_secret' => 'xZQgEiT59lX9nH5rpNWdzGPC2A5vNbIsamiskyvydBV4pFu9sP',
-	'user_token' => '180875865-u3ojFs2j1DlSAWCRxJajh3wPSeZZCw9zAG3Dh7TD', //access token
-	'user_secret' => 'jdH913zRyXwnXBiJRUTDRQw8YojaHcR9mCSv5RkF2WOb6' //access token secret
+ 	 'consumer_key' => '',
+	'consumer_secret' => '',
+	'user_token' => '', //access token
+	'user_secret' => '' //access token secret
 ));
 // set up parameters to pass
 $parameters = array();
