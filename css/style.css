@@ -1,0 +1,148 @@
+body{
+	font-family: muli;
+	min-height: 100vh;
+}
+#left-sidebar {
+	/* background-image:url('https://hd.unsplash.com/photo-1454123253751-1fe2b9e0c10d');
+	background-size:cover;*/
+	background-color:#00759f;
+	min-height: 100vh;
+	position:fixed;
+	left:0;
+	
+}
+#navbar {
+	right:0;
+	width:75px;
+	height:100vh;
+	border-left:2px solid #00759f;
+	background-color:#309dbf;
+	position:fixed;
+}
+
+#mainbody {
+	background-color:#8dcee0;
+	min-height: 100vh;
+	float:left;
+	
+}
+#header {
+	margin:0 0 50px 0;
+}
+small {
+	margin-left: 5px; 
+	font-weight: bold;
+}
+
+#backurl {
+	font-size: 40px;
+    	color: #fff!important;
+}
+#socialmedia {
+	position:absolute;
+	bottom:10px;
+	right:22px;
+	font-size:30px;
+	color: #fff!important;
+}
+.backbutton {
+	top:10px;
+	left:15px;
+}
+.sm-icon {
+	padding-left:10px;
+}
+.navbar-a {
+	color: #fff;
+}
+.brand-logo {
+	height:200px;
+	width:200px;
+	margin-top:20px;
+}
+.hide {
+	display:none;
+}
+.input-button {
+	font-family:muli;
+	margin-left:10px;
+	border-radius: 0 3px 3px 0!important;
+}
+.input-group {
+	margin: 0 auto;
+	width:80%;
+}
+#result {
+	margin: 0 auto;
+	width:80%;
+}
+.tweets {
+	list-style:none;
+	margin-top:50px;
+	
+}
+.tweet {
+	position:relative;
+	padding:10px;
+	margin-bottom:10px;
+ 	height:auto;
+	box-shadow: 1px 1px 2px 1px rgba(18, 156, 195, 0.42);
+	border-radius:3px;
+	background-color:white;
+}
+.screen-name, .tweet-text {
+	margin: 0 0 0 55px;
+}
+
+@media (min-width:992px){
+	#mainbody {
+		margin-left:25%
+	}
+	#maincontent {
+		padding-right:100px;
+	}
+	#username {
+		height:50px;
+	}
+	#clear, #search {
+		height:50px;
+		width:100px;
+	}
+	#search {
+		background-color:#00759f;
+		border-color:#00759f;
+	}
+}
+
+
+@media (max-width:991px){
+	#left-sidebar {
+		display:none;
+	}	
+	#navbar {
+		display:none;
+	}
+	.input-group {
+		width:100%;
+	}
+	#result {
+		margin: 0 auto;
+		width:100%;
+	}
+	.tweets {
+		list-style:none;
+		margin-top:50px;
+	
+	}
+	#username {
+		height:40px;
+	}
+	#clear, #search {
+		height:40px;
+		width:40px;
+	}
+	#search {
+		background-color:#00759f;
+		border-color:#00759f;
+	}
+}
